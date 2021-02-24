@@ -345,3 +345,8 @@ AIO 是异步IO的缩写，虽然 NIO 在网络操作中，提供了非阻塞的
 
 - 《Netty 权威指南》第二版
 - https://zhuanlan.zhihu.com/p/23488863 (美团技术团队)
+
+**面试问题**
+1. Linus的5中IO模型。
+2. NIO和BIO之间的区别？ NIO为什么快
+3. NIO中的三大组件。 Channel Buffer Selector 各自的作用。
