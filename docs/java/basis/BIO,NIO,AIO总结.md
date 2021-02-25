@@ -347,6 +347,7 @@ AIO 是异步IO的缩写，虽然 NIO 在网络操作中，提供了非阻塞的
 - https://zhuanlan.zhihu.com/p/23488863 (美团技术团队)
 
 **面试问题**
-1. Linus的5中IO模型。
-2. NIO和BIO之间的区别？ NIO为什么快
-3. NIO中的三大组件。 Channel Buffer Selector 各自的作用。
+1. Linus的5中IO模型。 阻塞 非阻塞 多路复用io 信号函数io 异步io，可以从数据准备和数据复制两个过程进行回答。
+2. NIO和BIO之间的区别？ 三个点，1. NIO面向缓存操作，BIO面向流操作，前者灵活性更高。2. NIO是多路复用非阻塞IO模型，能够通过事件注册到selector，并同通过轮询的方式查看是否有数据传输过来。BIO是阻塞IO模型，并且为每个连接都创建一个线程去处理，CPU上下文切换频繁，耗时。3. NIO可以进行利用直接内存进行zero copy。
+3. NIO为什么效率更快？ NIO是多路复用模型，只需要少量线程就可以同时处理多个IO连接。
+4. NIO中的三大组件。 Channel Buffer Selector 各自的作用。
