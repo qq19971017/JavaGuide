@@ -551,3 +551,4 @@ public class HashMapDemo {
 6. jdk1.8之后的改进，如何扩容，为什么是红黑树而不是平衡树？
 7. LRU缓存的实现？ LinkedHashMap
 8. HashMap为什么链表长度大于8时会转化为红黑树的结构？
+9. HashMap为什么可以允许key为null，而Hashtable和concurrentHashmap不允许？ 安全失败机制fail-safe
