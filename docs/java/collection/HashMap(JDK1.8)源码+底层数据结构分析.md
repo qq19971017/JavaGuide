@@ -541,3 +541,13 @@ public class HashMapDemo {
 }
 
 ```
+
+**面试问题**
+1. hashmap的底层实现原理，数据结构。
+2. hashmap的查询删除的时间复杂度。
+3. hashmap和concurrentHashMap的区别。
+4. hashmap1.7和1.8的区别。
+5. HashMap底层以及为什么用红黑树？
+6. jdk1.8之后的改进，如何扩容，为什么是红黑树而不是平衡树？
+7. LRU缓存的实现？ LinkedHashMap
+8. HashMap为什么链表长度大于8时会转化为红黑树的结构？
