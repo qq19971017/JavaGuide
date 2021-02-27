@@ -586,7 +586,7 @@ Java8 中的 ConcruuentHashMap  使用的 Synchronized 锁加 CAS 的机制。�
 **面试问题**
 (参考答案)[https://segmentfault.com/a/1190000024432650]
 [深入解析 ConcurrentHashMap 实现内幕，吊打面试官，没问题](https://segmentfault.com/a/1190000021237438?utm_source=sf-related)
-1. ConcurrentHashMap1.7和1.8的区别？ 
+1. ConcurrentHashMap1.7和1.8的区别？  (重要)
 2. ConcurrentHashMap的key value不能为null，map可以？
-3. ConcurrentHashMap使用什么技术来保证线程安全？
+3. ConcurrentHashMap使用什么技术来保证线程安全？(重要)
 4. put()方法如何实现线程安全呢？
