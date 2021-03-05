@@ -892,3 +892,12 @@ CPU 密集型简单理解就是利用 CPU 计算能力的任务比如你在内�
 
 - [Java 并发（三）线程池原理](https://www.cnblogs.com/warehouse/p/10720781.html "Java并发（三）线程池原理")
 - [如何优雅的使用和理解线程池](https://github.com/crossoverJie/JCSprout/blob/master/MD/ThreadPoolExecutor.md "如何优雅的使用和理解线程池")
+
+**线程池面试题目**
+1. 创建线程的方式，回答：集成Thread类、实现 Runnable、和实现Callable。和常用线程池，和ThreadPoolExecutor自定义参数。
+2. ThreadPoolExecutor的工作流程。
+3. newCachedThreadPool线程池的工作流程。
+4. 线程池的拒绝策略?
+5. 线程池的状态？  Running、ShutDown、Stop、Tidying、Terminated。
+6. 线程池的种类？
+
