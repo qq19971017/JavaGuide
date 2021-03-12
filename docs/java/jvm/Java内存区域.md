@@ -494,3 +494,7 @@ i4=i5+i6   true
 - <https://dzone.com/articles/jvm-permgen-%E2%80%93-where-art-thou>
 - <https://stackoverflow.com/questions/9095748/method-area-and-permgen>
 - 深入解析String#intern<https://tech.meituan.com/2014/03/06/in-depth-understanding-string-intern.html>
+
+**面试题目**
+1. JVM内存模型有哪些？ 可以分线程私有和线程共有开始说
+2. 为什么程序计数器私有？ 从多线程轮换执行角度说。
